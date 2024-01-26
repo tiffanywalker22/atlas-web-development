@@ -1,0 +1,186 @@
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url(css_advanced/fonts/SourceSansPro-Regular.otf) format('opentype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('css_advanced/fonts/SourceSansPro-Light.otf') format('opentype');
+    font-weight: 300;
+}
+
+:root {
+    --purple-color: #C271FF;
+    --navy-color: #071629;
+    --white-color: #FFFFFF;
+    --black-color: #000000;
+    --grey-color: #D8D8D8;
+}
+
+
+body {
+    width: 1440px;
+    height: 3718px;
+    margin: 0;
+}
+
+.background-img {
+    background-image: url("../css_advanced/images/background.png");
+    position: absolute;
+    width: 1440px;
+    height: 1093px;
+    left: 0;
+    top: 0;
+}
+header {
+    display: flex;
+    width: 100%;
+    height: 1541.98px;
+    margin-top: 35.02px;
+}
+
+.logo {
+    position: absolute;
+    width: 169px;
+    height: 30px;
+    left: 170px;
+    top: 35px;
+}
+
+.navigation {
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 235px;
+    height: 15px;
+    color: var(--white-color);
+    font: 12px'Source-Sans-Pro', 'Helvetica';
+    font-weight: 700;
+    font-style: bold;
+}
+
+#getschooled {
+    position: absolute;
+    height: 150px;
+    left: 230px;
+    right: 200px;
+    top: 75%;
+    margin-top: -200px;
+    font: 120px 'Source-Sans-Pro', 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150px;
+    text-align: center;
+    color: #FFFFFF;
+    white-space: nowrap;
+}
+
+#smiles {
+    position: absolute;
+    height: 20px;
+    left: 5px;
+    right: 100px;
+    top: 380px;
+    font: 16px 'Source-Sans-Pro', 'Helvetica';
+    font-weight: 700;
+    text-align: center;
+    color: var(--white-color);
+
+}
+
+#grin {
+    position: absolute;
+    height: 20px;
+    left: 180px;
+    right: 100px;
+    top: 380px;
+    font: 16px 'Source-Sans-Pro', 'Helvetica';
+    font-weight: 700;
+    text-align: center;
+    color: var(--white-color);
+}
+
+#laugh {
+    position: absolute;
+    height: 20px;
+    left: 380px;
+    right: 100px;
+    top: 380px;
+    font: 16px 'Source-Sans-Pro', 'Helvetica';
+    font-weight: 700;
+    text-align: center;
+    color: var(--white-color);
+}
+
+.button {
+    border: none;
+    position: absolute;
+    left: 280px;
+    right: 200px;
+    top: 400px;
+    bottom: 50px;
+    background: transparent;
+    cursor: pointer;
+}
+
+#learn {
+    position: absolute;
+    height: 40px;
+    left: 5px;
+    right: 100px;
+    top: 600px;
+    font: 32px 'Source-Sans-Pro', 'Helvetica';
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+    color: var(--purple-color);
+}
+
+#pros {
+    position: absolute;
+    height: 40px;
+    left: 300px;
+    right: 100px;
+    top: 600px;
+    font: 32px 'Source-Sans-Pro', 'Helvetica';
+    font-weight: 300;
+    text-align: center;
+    line-height: 40px;
+    color: var(--white-color);
+}
+
+.people-container {
+    display: flex;
+    position: absolute;
+    width: 1009px;
+    height: 237px;
+    left: 217px;
+    top: 758px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.names {
+    height: 27px;
+    font: 18px 'Source-Sans-Pro', 'Helvetica';
+    font-weight: 900;
+    font-style: normal;
+    line-height: 27px;
+    color: var(--white-color);
+}
+
+.text {
+    height: 48px;
+    top: 50%;
+    font: 16px 'Source-Sans-Pro', 'Helvetica';
+    font-style: italic;
+    font-weight: 400px;
+    line-height: 48px;
+    color: var(--white-color);
+    text-align: center;
+}
