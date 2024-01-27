@@ -291,3 +291,60 @@ header {
     background: transparent;
     cursor: pointer;
 }
+
+.faq {
+    color: var(--navy-color);
+    text-align: center;
+}
+
+.title-faq {
+    font: 60px 'Source Sans Pro', 'Helvetica';
+    font-weight: 300;
+}
+
+.faq-block {
+    display: flex;
+    margin: 80px
+}
+
+.faq-box {
+    flex: 1;
+    margin: 0 32px 32px 0;
+    text-align: left;
+}
+
+.faq-box h2{
+    font-size: 16px;
+}
+
+.faq-box p{
+    color: var(--navy-color);
+    opacity: 50%;
+    font-size: 14px;
+    padding-top: 32px;
+}
+
+footer {
+    background-color: var(--navy-color);
+    text-align: center;
+}
+.footer-box {
+    display: flex;
+    padding: 80px 0;
+    margin-bottom: 80px;
+}
+.links {
+    flex: 1;
+}
+.links a{
+    margin: 0 8px;
+}
+
+footer p{
+    color: var(--white-color);
+    font: 12px 'Source Sans Pro', 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    opacity: 0.3517;
+    padding-bottom: 32px;
+}
