@@ -285,12 +285,14 @@ header {
 }
 
 .video-text {
+    font: 16px 'Source Sans Pro', 'Helvetica';
     text-align: left;
     width: 80%;
     margin-left: 10%;
 }
 
 .phillip-text {
+    font: 'Source Sans Pro', 'Helvetica';
     display: flex;
 }
 
@@ -433,5 +435,5 @@ footer p{
     font-style: normal;
     font-weight: 400;
     opacity: 0.3517;
-    padding-bottom: 32px;
+    padding-bottom: 39px;
 }
